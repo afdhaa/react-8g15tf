@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "next": "^9.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "devDependencies": {
     "react-scripts": "latest"
